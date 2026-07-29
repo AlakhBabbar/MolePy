@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "molepy"
+version = "0.1.0"
+description = "An AI coding agent that explores and modifies codebases."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.12.0",
+    "openai>=1.14.0",
+]
+
+[project.scripts]
+molepy = "molepy.cli:app"
