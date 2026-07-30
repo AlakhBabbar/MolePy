@@ -10,6 +10,11 @@ An autonomous CLI software engineering agent designed to explore, plan, execute,
 
 ---
 
+
+https://github.com/user-attachments/assets/1bb0f542-8cc0-461a-bb02-6031991b99bc
+
+
+
 ## System Architecture
 
 The project is structured into distinct, modular components within the `src/molepy/` package:
